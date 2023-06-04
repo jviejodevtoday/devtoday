@@ -1,0 +1,36 @@
+var a = 2
+var b = 1
+var c = 13
+
+// 1  1 -> 1
+// 1. 0 -> 0
+// 0  1 -> 0
+// 0  0 -> 0
+
+if (a == b && c == 12  ) {
+    console.log("se cumple")
+} else {
+    console.log("no se cumple")
+}
+
+// 1 <- 0
+// 0 <- 1
+
+if (!(a == b)) {
+    console.log("negacion se cumple")
+} else {
+    console.log("negacion. no se cumple")
+}
+
+
+// 1  1 -> 1
+// 1  0 -> 1
+// 0  1 -> 1
+// 0  0 -> 0
+
+
+if (a == b || c == 12  ) {
+    console.log("por or se cumple")
+} else {
+    console.log("por or no se cumple")
+}
